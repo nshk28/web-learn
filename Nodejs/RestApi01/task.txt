@@ -1,0 +1,23 @@
+// Rest api - export json
+
+//make a hybrid server 
+GET/users - html document render
+GET/api/users - List all users json
+
+//concept - Dynamic path parameters
+GET/api/users/:id
+:id -> variable
+GET/api/users/1 - Get the user with ID 1
+GET/api/users/2 - Get the user with Id 2
+
+
+//
+POST/api/users - create the user
+
+PATCH/api/user/1 - edit the user with id 1
+
+DELETE/api/users/1 - delete the user with id 1
+
+// we need fake data as we dont have mongodb as of now so we can use-
+mockaro.com
+
